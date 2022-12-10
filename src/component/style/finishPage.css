@@ -1,0 +1,19 @@
+h2{
+    color: #fffffe;
+    text-align: center;
+
+}
+.victor-name{
+    color: #f9bc60;
+    font-size: 2ch;
+    margin-top: 2px;
+    text-align: center;
+}
+.mode-btn-container{
+    margin-top: .5rem;
+}
+.chooseF{
+    margin-top: -2rem;
+    font-weight: 700;
+    color: #abd1c6;
+}

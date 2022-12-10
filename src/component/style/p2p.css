@@ -1,0 +1,8 @@
+.two-player-action-cont{
+    display: flex;
+    gap: 1.5rem;
+    padding: 5px;
+}
+#action-cont{
+    flex-wrap: wrap;
+}

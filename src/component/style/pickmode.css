@@ -1,0 +1,52 @@
+@import url('https://fonts.google.com/specimen/Electrolize?category=Serif,Sans+Serif,Display,Monospace');
+
+
+.choose{
+    font-family: Electrolize;
+    font-weight: 900;
+    font-size: larger;
+    color: #abd1c6;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+.mode-btn {
+    background-color: #e16162;
+    border: 2px solid #f9bc60;
+    border-radius: 30px;
+    box-shadow: #f9bc60 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Electrolize;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: .3s ease;
+    }
+    
+    .mode-btn:hover {
+    background-color: #fff;
+    }
+    
+    .mode-btn:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+    }
+    
+    @media (min-width: 768px) {
+        .mode-btn {
+    min-width: 120px;
+    padding: 0 25px;
+    }
+    }
+
+    .mode-btn-container{
+        display: flex;
+        flex-direction: column;
+    }
